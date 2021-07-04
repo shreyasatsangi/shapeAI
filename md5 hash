@@ -1,0 +1,5 @@
+import hashlib
+
+# encode it to bytes using UTF-8 encoding
+message = " hello world ".encode()
+print("MD5:", hashlib.md5(message).hexdigest())
